@@ -1,0 +1,31 @@
+@import './color.scss';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  // -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: $greyDark;
+  background-color: $grey100;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  // -webkit-overflow-scrolling: touch;
+  // -webkit-user-select: none;
+  // -webkit-app-region: drag;
+}
+
+::selection {
+  color: $grey100;
+  background-color: $deepOrangeColor;
+}

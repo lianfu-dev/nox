@@ -1,0 +1,12 @@
+:global #root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+:global .hidden {
+  visibility: hidden;
+}
+:global .visible {
+  visibility: visible;
+}
